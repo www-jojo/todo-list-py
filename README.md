@@ -1,43 +1,81 @@
-# Python To-Do App
+# Python To-Do List App
 
-My first Python project.
+## Overview
 
-## Description
+This is a terminal-based To-Do List application built in Python to strengthen my understanding of programming fundamentals, file handling, and software development practices.
 
-A command-line to-do list application that allows users to manage tasks from a menu system.
+The project began as a simple task manager and has been extended to include persistent storage using file handling, allowing tasks to be saved and loaded between sessions.
+
+This project is being developed in phases, with future plans to add more advanced features and a graphical user interface (GUI).
+
+----
 
 ## Features
+
+### Current Features
 
 - Add tasks
 - View tasks
 - Remove tasks
-- Input validation using try/except
-- Numbered task display using enumerate()
+- Input validation and error handling
+- Save tasks to a file
+- Load tasks from a file when the program starts
+- Automatic creation of required files on first run
+- User name storage between sessions
+ 
+----
 
-## Skills Practiced
+## Technologies Used
 
-- Python functions
+- Python 3
+- File Handling
+- Functions
 - Lists
-- Loops
-- Conditional statements
-- User input
-- Error handling
-- String formatting (f-strings)
+- Exception Handling (try / except)
+- Git
+- GitHub
 
-## How to Run
+----
 
-1. Download the project.
-2. Open a terminal in the project folder.
-3. Run:
+## Skills Demonstrated
 
-```bash
-python todo_app.py
-```
+Through this project I have practised:
+
+- Breaking programs into reusable functions
+- Working with lists and loops
+- Reading from and writing to files
+- Handling errors using exceptions
+- Using Git for version control
+- Managing a project using GitHub
+
+----
 
 ## Future Improvements
 
-- Save tasks to a file
-- Load tasks when the program starts
+- Mark tasks as completed
 - Add task priorities
 - Add deadlines
-- Create a GUI version
+- Edit existing tasks
+- Search and filter tasks
+- Build a Tkinter GUI
+- Improve file structure and code organisation
+
+----
+
+## How to Run
+
+1. Clone the repository.
+2. Open the project folder.
+3. Run:
+
+python todo_app.py
+
+4. Follow the on-screen menu options.
+
+----
+
+## Project Status
+
+Current Version: Phase 2 – Persistent Storage Implemented
+
+Next Version: Phase 3 – Enhanced Task Management
